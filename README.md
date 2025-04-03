@@ -1,2 +1,2 @@
-# homework_lesson_4
-homework_lesson_4
+homework for lesson 3 and 4
+
