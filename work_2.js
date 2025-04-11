@@ -75,6 +75,6 @@ let arr = [1, 2, 3, 4, 5];
 // Результат: [5, 4, 3, 2, 1]
 let newArray = [];
 for ( i = 0; i < arr.length; i ++) {
-    newArray.push(arr[i]);
+    newArray.splice(arr[i]);
 }
 console.log(newArray);
