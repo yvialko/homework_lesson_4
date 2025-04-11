@@ -86,3 +86,13 @@
 // }
 
 // multiplicationTable(5);
+
+
+function randomFiveNumbers() {
+    for (let i = 0; i < 5; i++) {
+        let num = Math.floor(Math.random() * 100);
+        console.log("Число #" + (i + 1) + ": " + num);
+    }
+}
+
+randomFiveNumbers();
