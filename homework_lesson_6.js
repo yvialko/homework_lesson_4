@@ -19,4 +19,4 @@ function checkProbabilityTheory(count) {
     console.log("Відношення непарних до загальної кількості: " + percentageOdd + "%");
     console.log(percentageOdd + "%",  ':', percentageEven + "%",);
 }
-checkProbabilityTheory(5);
+checkProbabilityTheory(900);
