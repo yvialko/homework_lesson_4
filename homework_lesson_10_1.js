@@ -26,31 +26,6 @@ var arr = [
     }
 ];
 
-let allowedEmails = [];
-//let notAllowedEmail = [];
-
-arr.forEach(persons => {
-  function checkEmailKey(key) {
-    return key.includes("email");
-  }
-
-        let emailKey = Object.keys(persons).find(checkEmailKey)
-  //console.log(Object.keys(persons))
-
-                if (emailKey) {
-                    let email = persons[emailKey].replace(/[<>!?%&+_]/gm, "").trim();
-
-                    if (/^[a-zA-Z0-9.-_]+@(gmail\.com|yahoo\.com)$/.test(email)) {
-                        allowedEmails.push(email);
-                    }  /*else {
-                        notAllowedEmail.push(email)
-                    }*/
-                } 
-});
-
-console.log("all allowed emails:", allowedEmails);
-//console.log("all restricted emails:", notAllowedEmail);
-
 
 
 
