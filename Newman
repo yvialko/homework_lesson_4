@@ -1,0 +1,1 @@
+newman run "/Users/yevheniiavialko/Desktop/postman_collections/Homework_18_xml.postman_collection.json" -d "/Users/yevheniiavialko/Desktop/CSV_files/isbn.csv" -r htmlextra --reporter-htmlextra-export report.html
