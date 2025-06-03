@@ -1,0 +1,11 @@
+scenario,url,name,lastName,email,password,repeatPassword,expected_error_message
+Empty_name,https://qauto2.forstudy.space/api,,Potter,hpotter@gmail.com,0wdg7dgwZ4lpR,0wdg7dgwZ4lpR,"\""name\"" is not allowed to be empty"
+Invalid_name,https://qauto2.forstudy.space/api,O'coner,Potter,hpotter2@gmail.com,KK2drkpO5Np,KK2drkpO5Np,"Name is invalid"
+Name_with_numbers,https://qauto2.forstudy.space/api,Marta88,Potter,hpotter3@gmail.com,w31aCz4hDiCl1a,w31aCz4hDiCl1a,"Name is invalid"
+Invalid_password,https://qauto2.forstudy.space/api,Harry,Potter,hpotter4@gmail.com,nnbzs8s6tch5,nnbzs8s6tch5,"Password has to be from 8 to 15 characters long and contain at least one integer, one capital, and one small letter"
+Not_match_password,https://qauto2.forstudy.space/api,Ben,Potter,hpotter5@gmail.com,B1SQogjZH5eoNsC,B1SQogjZH5eoNsC123,"Passwords do not match"
+Empty_name_prod,https://qauto2.forstudy.space/api,,Potter,hpotter@gmail.com,0wdg7dgwZ4lpR,0wdg7dgwZ4lpR,"\""name\"" is not allowed to be empty"
+Invalid_name_prod,https://qauto2.forstudy.space/api,O'coner,Potter,hpotter2@gmail.com,KK2drkpO5Np,KK2drkpO5Np,"Name is invalid"
+Name_with_numbers_prod,https://qauto2.forstudy.space/api,Marta88,Potter,hpotter3@gmail.com,w31aCz4hDiCl1a,w31aCz4hDiCl1a,"Name is invalid"
+Invalid_password_prod,https://qauto2.forstudy.space/api,Harry,Potter,hpotter4@gmail.com,nnbzs8s6tch5,nnbzs8s6tch5,"Password has to be from 8 to 15 characters long and contain at least one integer, one capital, and one small letter"
+Not_match_password_prod,https://qauto2.forstudy.space/api,Ben,Potter,hpotter5@gmail.com,B1SQogjZH5eoNsC,B1SQogjZH5eoNsC123,"Passwords do not match"
